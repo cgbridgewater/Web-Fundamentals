@@ -1,0 +1,27 @@
+.element {
+    height: 50;
+    width: 200px;
+    padding: 20px;
+    margin-left: 20px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: turquoise;
+    color: white;
+    font-weight: 900;
+}
+
+button {
+    height: 50;
+    width: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: turquoise;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}

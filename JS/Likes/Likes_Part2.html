@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 2</title>
+    <link rel="stylesheet" href="Likes_part2.css">
+</head>
+<body>
+    <main class="main">
+        <div class="header_bar">
+            <h1>Network</h1>
+        </div>
+        <div class="feed">
+            <h2>Your Feed</h2>
+        </div>
+        <div class="container">
+            <div class="left_column">
+                <div class="user_id">
+                    <div>
+                        <img src="Ninja.png" alt="icon">
+                    </div>
+                    <a href="#">Add an avatar</a>
+                    <p>James Doe</p>
+                </div>
+            </div>
+            <div class="right_column">
+                <div id="box1">
+                    <div class="top-row1">
+                        <div id="user1">Neil M</div>
+                        <div id="center_box1">
+                            <p id="counter1">9</p>
+                            <div id="likes1">like(s)</div>
+                        </div>
+                        <button onclick="updateCounter1(this)" id="addLikes1">Like</button>
+                    </div>
+                    <div id="filler-text1">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div id="box2">
+                    <div class="top-row2">
+                        <div id="user2">Nichole K</div>
+                        <div id="center_box2">
+                            <p id="counter2">12</p>
+                            <div id="likes2">like(s)</div>
+                        </div>
+                        <button onclick="updateCounter2(this)" id="addLikes2">Like</button>
+                    </div>
+                    <div id="filler-text2">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div id="box3">
+                    <div class="top-row3">
+                        <div id="user3">Jim R</div>
+                        <div id="center_box3">
+                            <p id="counter3">9</p>
+                            <div id="likes3">like(s)</div>
+                        </div>
+                        <button onclick="updateCounter3(this)" id="addLikes3">Like</button>
+                    </div>
+                    <div id="filler-text3">
+                        <p>I can't stop listening to the <a href="#">new album</a>.</p> 
+                        <p>Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="Likes_part2.js"></script>
+</body>
+</html>

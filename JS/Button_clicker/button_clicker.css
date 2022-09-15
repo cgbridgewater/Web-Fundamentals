@@ -1,0 +1,239 @@
+/* reset page */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Begin nav bar and contents */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:50%;
+    height: 100%;
+    padding: 1%;
+    margin: 0 auto;
+    background-color: gray;
+}
+    
+.nav-title {
+    margin-left: 20px;
+    font-size: 270%;
+}
+    
+.nav input{
+    height:20px;
+    width: 250px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#signIn{
+    width: 60px;
+    margin-right: 20px;  
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 5px 5px black;
+    background-color: blue;
+    color: white;
+}
+
+/* this contains all the boxes below the nav */
+.box_container{
+    width:100%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+/* boxes on the left side!! */
+.left_side{
+    height: 700px;
+    flex: 2;
+    margin-left: 23%;
+    color: white;
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+/* main upper left box */
+#box1{
+    height: 150px;
+    width: 90%;
+    color: white;
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+    border: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+/* right column of the left boxes */
+.inner-right{
+width: 100%;
+flex: 2;
+}
+/* left column of the left boxes */
+.inner-left{
+width: 100%;
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* top box of right column in left boxes */
+.sub-box1{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-box1 h2{
+    font-size: 40px;
+}
+
+/* bottom box of right column in left boxes */
+.sub-box2{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-box2 h3{
+    font-style: italic;
+    font-size: 22px;
+}
+.sub-box2 em{
+    font-style: italic;
+}
+
+/* inner box for right column of the left side boxes */
+.sub-box3{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-box3 p{
+    width: 80%;
+}   
+
+.sub-box3 p a{
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+/* like buttons */
+.likes{
+    margin-top: 5px;
+    height: 17%;
+    width: 45%;  
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 3px 3px black;
+    background-color:gold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* main lower left box */
+#box2{
+    height: 150px;
+    width: 90%;
+    color: white;
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+    border: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+/* boxes on the right side!! */
+.right_side{
+    height: 700px;
+    flex: 1;
+    margin-right: 23%;
+    color: white;
+    background-color: white;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+/* right side of page main box */
+#box3{
+    height: 120px;
+    color: white;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    border: solid;
+    border-color: black;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/* box inside right side of page main box */
+.sub-box4{
+    height: 30%;
+    width: 80%;
+    padding-top: 10%;
+    color: black;
+    font-size: 140%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub-box4 p em{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* add definition button */
+#definition{
+    margin-top: 20px;
+    width: 80%;  
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 5px 5px black;
+    background-color: seagreen;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+width: 100%;
+height: 100%;
+}
+
+.header_bar{
+    width: 45%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.feed{
+    width: 44.6%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border: solid;
+    border-color: grey;
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    column-gap: 10%;
+}
+
+/* left side */
+.left_column{
+    flex: 2;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user_id{
+    height: 260px;
+    width: 23%;
+    margin-top: 2%;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 3px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_id img{
+    height: 80%;
+    width: 80px;
+    border-radius: 200%;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.user_id a{
+padding-top: 10px;
+}
+
+.user_id p{
+padding-top: 10px;
+}
+
+/* right side */
+.right_column{
+    flex: 3;
+    height: 600px;
+}
+
+/* box 1 code */
+#box1{
+    margin-top: 1.5%;    
+    height: 150px;
+    width: 49%;
+    border: 5px;
+    border-color: black;
+    border: solid;
+    background-color: whitesmoke;
+}
+
+.top-row1{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#center_box1{
+    display: flex;
+    align-items: center;
+}
+
+#counter1, #likes1, #addLikes1, #filler-text1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#counter1, #likes1{
+    margin-top: 2px;
+}
+
+#counter1{
+    margin-right: 3px;
+}
+
+#addLikes1{
+    width: 60px;
+    margin-right: 20px;  
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 5px 5px black;
+    background-color: gold;
+    color: black;
+}
+
+#filler-text1{
+    margin: 0px 15px;
+}
+
+/* box 2 code */
+#box2{
+    margin-top: 1.5%;    
+    height: 150px;
+    width: 49%;
+    border: 5px;
+    border-color: black;
+    border: solid;
+    background-color: whitesmoke;
+}
+
+.top-row2{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user2{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#center_box2{
+    display: flex;
+    align-items: center;
+}
+
+#counter2, #likes2, #addLikes2, #filler-text2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#counter2, #likes2{
+    margin-top: 2px;
+}
+
+#counter2{
+    margin-right: 3px;
+}
+
+#addLikes2{
+    width: 60px;
+    margin-right: 20px;  
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 5px 5px black;
+    background-color: gold;
+    color: black;
+}
+
+#filler-text2{
+    margin: 0px 15px;
+}
+
+/* box 3 code */
+#box3{
+    margin-top: 1.5%;    
+    height: 150px;
+    width: 49%;
+    border: 5px;
+    border-color: black;
+    border: solid;
+    background-color: whitesmoke;
+}
+
+.top-row3{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#center_box3{
+    display: flex;
+    align-items: center;
+}
+
+#counter3, #likes3, #addLikes3, #filler-text3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#counter3, #likes3{
+    margin-top: 2px;
+}
+
+#counter3{
+    margin-right: 3px;
+}
+
+#addLikes3{
+    width: 60px;
+    margin-right: 20px;  
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 5px 5px black;
+    background-color: gold;
+    color: black;
+}
+
+#filler-text3{
+    margin: 0px 15px;
+}
