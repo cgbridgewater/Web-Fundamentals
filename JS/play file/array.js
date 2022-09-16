@@ -14,8 +14,8 @@ function alwaysHungry(arr){
     }
 }
 
-// alwaysHungry([3.14, "food", "pie", true, "food"]); // this should console log "yummy", "yummy"
-// alwaysHungry([4, 1, 5, 7, 2]);  // this should console log "I'm hungry"
+alwaysHungry([3.14, "food", "pie", true, "food"]); // this should console log "yummy", "yummy"
+alwaysHungry([4, 1, 5, 7, 2]);  // this should console log "I'm hungry"
 
 // high pass filter
 
@@ -28,8 +28,8 @@ function highPass(arr, cutoff) {
         }
     } return filteredArr;
 }
-// var result = highPass([6, 8, 3, 10, -2, 5, 9], 5);
-// console.log(result); // we expect back [6, 8, 10, 9]
+var result = highPass([6, 8, 3, 10, -2, 5, 9], 5);
+console.log(result); // we expect back [6, 8, 10, 9]
 
 
 // Better than average 
@@ -49,8 +49,8 @@ function betterThanAverage(arr) {
     }
     return count;
 }
-// var result = betterThanAverage ([6, 8, 3, 10, -2, 5, 9]);
-// console.log(result); 
+var result = betterThanAverage ([6, 8, 3, 10, -2, 5, 9]);
+console.log(result); 
 
 // // // array reverse // 
 
@@ -71,6 +71,8 @@ function reverse(arr) {
 console.log(result);
 
 
+
+// Fibonacci Array
 
 function fibonacciArray(n) {
     var fibArr = [0,1]
