@@ -14,3 +14,31 @@ function remove() {
 
 
 // tempSelect controls high and low temp f/c
+
+// review coding dojo answer for consolidated way of putting the "onclick" together
+
+
+// today
+// high 75
+// low 65
+
+
+
+
+// tomorrow
+// high 80
+// low 66
+
+
+
+
+// friday
+// high 69
+// low 61
+
+
+
+
+// saturday
+// high 78
+// low 70
