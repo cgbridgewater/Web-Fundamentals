@@ -7,3 +7,7 @@ function clicked(){
 
 
 // remove cookie pop up
+function remove() {
+    var element = document.querySelector(".window");
+    element.remove();    
+}
