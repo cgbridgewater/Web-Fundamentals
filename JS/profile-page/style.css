@@ -177,8 +177,8 @@ a {
 }
 
 
-#badgeReq,
-#badgeAdded {
+#count,
+#added {
     font-size: 1rem;
     height: 24px;
     line-height: 24px;
