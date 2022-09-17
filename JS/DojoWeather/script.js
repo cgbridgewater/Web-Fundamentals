@@ -11,3 +11,6 @@ function remove() {
     var element = document.querySelector(".window");
     element.remove();    
 }
+
+
+// tempSelect controls high and low temp f/c

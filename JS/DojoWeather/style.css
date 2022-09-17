@@ -5,7 +5,7 @@
 
 /* start nav bar */
 nav{
-    width: 70%;
+    width: 90%;
     height: 100px;
     background-color: #9EC5F9;
     display: flex;
@@ -65,22 +65,55 @@ nav ul a{
 
 .divider{
     border-bottom: 3px solid black;
-    width: 57%;
+    width: 85%;
 }
 
 .container{
-    width: 70%;
+    width: 90%;
+    padding: 0 50px;
     display: flex;
     justify-content: space-evenly;
 }
 .box{
-    background-color: orange ;
-    width: 200px;
-    height: 300px;
+    background-color: lightgray ;
+    margin: 20px;
+    width: 20%;
+    /* height: 330px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.box h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
 
+.box h3{
+    font-size: 20px;
+}
 
+.box img{
+    width: 70%;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+.temps{
+    margin: 20px 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
 
 
 
