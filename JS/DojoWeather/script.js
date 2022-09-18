@@ -17,6 +17,7 @@ function remove() {
 
 // review coding dojo answer for consolidated way of putting the "onclick" together
 
+on select - change text with queary selector to high and low   
 
 // today
 // high 75
