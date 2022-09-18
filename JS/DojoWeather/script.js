@@ -13,33 +13,22 @@ function remove() {
 }
 
 
-// tempSelect controls high and low temp f/c
-
-// review coding dojo answer for consolidated way of putting the "onclick" together
-
-on select - change text with queary selector to high and low   
-
-// today
-// high 75
-// low 65
-
-
-
-
-// tomorrow
-// high 80
-// low 66
-
-
-
-
-// friday
-// high 69
-// low 61
-
-
-
-
-// saturday
-// high 78
-// low 70
+// Change high temp
+var high1 = document.querySelector(".high1");
+var high2 = document.querySelector(".high2");
+var high3 = document.querySelector(".high3");
+var high4 = document.querySelector(".high4");
+var low1 = document.querySelector(".low1");
+var low2 = document.querySelector(".low2");
+var low3 = document.querySelector(".low3");
+var low4 = document.querySelector(".low4");
+function selectF(){
+    high1.innerText = "75°"
+    high2.innerText = "80°"
+    high3.innerText = "69°"
+    high4.innerText = "78°"
+    low1.innerText = "65°"
+    low2.innerText = "66°"
+    low3.innerText = "61°"
+    low4.innerText = "70°"
+}

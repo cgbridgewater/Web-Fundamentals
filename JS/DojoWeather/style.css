@@ -108,11 +108,11 @@ img{
     justify-content: space-between;
 }
 
-.high {
+.high1, .high2, .high3, .high4 {
     color: red;
 }
 
-.low {
+.low1, .low2, .low3, .low4 {
     color: blue;
 }
 

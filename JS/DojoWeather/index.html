@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- nav bar -->
     <nav>
         <h1>DojoWeather</h1>
         <ul>
@@ -17,13 +19,14 @@
         </ul>
     </nav>
 
+    <!-- current location bar with c/f select -->
     <div class="sub-header">
         <div>
             <h2>San Jose</h2>
         </div>
         <div class="sub-right" >
             <p>show temperature in</p>
-            <select id="tempSelect">
+            <select id="tempSelect" onchange="selectF()">
                 <option id="celsius">°C</option>
                 <option id="fahrenheit">°F</option>
             </select>
@@ -31,14 +34,16 @@
     </div>
     <div class="divider"></div>
 
+
+    <!--day by day forecast  -->
     <div class="container">
         <div class="box1">
             <h2>Today</h2>
             <img src="some_rain.png" alt="some rain">
             <h3>Some Rain</h3>
             <div class="temps">
-                <h2 class="high">24°</h2>
-                <h2 class="low">18°</h2>
+                <h2 class="high1">24°</h2>
+                <h2 class="low1">18°</h2>
             </div>
 
 
@@ -49,8 +54,8 @@
             <img src="some_sun.png" alt="some sun">
             <h3>Some Sun</h3>
             <div class="temps">
-                <h2 class="high">24°</h2>
-                <h2 class="low">18°</h2>
+                <h2 class="high2">24°</h2>
+                <h2 class="low2">18°</h2>
             </div>
 
         </div>
@@ -59,8 +64,8 @@
             <img src="some_clouds.png" alt="some clouds">
             <h3>Some Clouds</h3>
             <div class="temps">
-                <h2 class="high">24°</h2>
-                <h2 class="low">18°</h2>
+                <h2 class="high3">24°</h2>
+                <h2 class="low3">18°</h2>
             </div>
 
 
@@ -70,38 +75,12 @@
             <img src="some_sun.png" alt="some sun">
             <h3>Some Sun</h3>
             <div class="temps">
-                <h2 class="high">24°</h2>
-                <h2 class="low">18°</h2>
+                <h2 class="high4">24°</h2>
+                <h2 class="low4">18°</h2>
             </div>
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- cookie pop up window -->
     <div class="window">
         <img src="cookie.png" alt="cookie">
         <div>
@@ -112,12 +91,6 @@
             <button onclick="remove(this)">I Accept</button>
         </div>
     </div>
-        
-
-
-
-
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
