@@ -1,1 +1,42 @@
 /* framework */
+
+#calculator{
+    width:min-content;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #000;
+    border-radius: 10px;
+
+}
+
+#display {
+    width: auto;
+    margin: 5px;
+    padding-right: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.operator{
+    background-color: orange;
+}
+
+
+button{
+    height: 30px;
+    width: 30px;
+    margin-top: 3px;
+    border-radius: 200px;
+    background-color: lightslategrey;
+    color: white;
+}
+
+#equals{
+    width: 135px;
+    background-color: darkgrey;
+}
