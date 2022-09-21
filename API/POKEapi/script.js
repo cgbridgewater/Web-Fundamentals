@@ -14,3 +14,29 @@ async function getpokeData() {
 }
     
 getpokeData();
+
+
+var pokeContainer = document.querySelector('.pikachu')
+var img = document.querySelector('img');
+
+async function getPokeImg() {
+    var response = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+    var pokeData = await response.json();
+    console.log(pokeData.sprites.front_default);
+    img.src = pokeData.sprites.front_default;
+    pokeContainer.appendChild(img);
+}
+getPokeImg();
+
+// make it change front to back
+async function changeImg(){
+    var response = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+    var pokeData = await response.json();
+
+    if(img.src == pokeData.sprites.front_default){
+        img.src = pokeData.sprites.back_default
+    }
+    else{
+        img.src = pokeData.sprites.front_default
+    }
+}
