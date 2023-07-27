@@ -5,3 +5,6 @@ This section contains work done in the Web Fundamentals section of Coding Dojo.
     
 This is a readme for our first project!
 # Web-Fundamentals
+
+
+Contains notes, practice and assainments
